@@ -27,6 +27,41 @@
       background-color: transparent;
       text-decoration: underline;
     }
+
+    .group:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .text-left {
+      float: left;
+      width: 70%;
+    }
+
+    .text-right {
+      float: right;
+      width: 70%;
+    }
+
+    .images-left {
+      float: left;
+      width: 25%;
+      padding-right: 5%;
+    }
+
+    .images-right {
+      float: right;
+      width: 25%;
+      padding-left: 5%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
   </style>
 
   <div style="padding: 30px;text-align: center;color:white;">
@@ -54,118 +89,158 @@
     <h1 style="text-align: center;">Child and young person counselling</h1>
     <h1 style="text-align: center;">For ages 4 - 25 years old</h1>
 
-    <blockquote style="text-align: center;">"When I accept myself just as I am, then I can change." - Carl Rogers</blockquote>
+    <blockquote style="text-align: center;">"When I accept myself just as I am, then I can change." - <cite>Carl Rogers</cite></blockquote>
 
-    <h2 id="about-me">About me</h2>
-    <img src="IMG_1534.jpeg" style="float: right;padding: 10px;" alt="A photo of me" width="100px">
+    <div class="group">
+      <h2 class="text-left" id="about-me">About me</h2>
+      <div class="text-left">
+        <p>
+          Hello I'm Sarah, I am a qualified counsellor dedicated to supporting children and young adults.
+        </p>
+        <p>
+          I am a registered member of the British Association for Counselling and Psychotherapy (MBACP). Adhering to the ethical guidelines set forth by the BACP allows me to maintain a safe and supportive practice for both my clients and myself.
+        </p>
+        <p>
+          To ensure the highest standard of care, I engage in regular supervision and am committed to ongoing professional development.
+        </p>
 
-    <p>
-      Hello I'm Sarah, I am a qualified counsellor dedicated to supporting children and young adults.
-    </p>
-    <p>
-      I am a registered member of the British Association for Counselling and Psychotherapy (MBACP). Adhering to the ethical guidelines set forth by the BACP allows me to maintain a safe and supportive practice for both my clients and myself.
-    </p>
-    <p>
-      To ensure the highest standard of care, I engage in regular supervision and am committed to ongoing professional development.
-    </p>
+<!--        <img src="IMG_2899.png" style="width: 30%;" alt="Flower"/>-->
+      </div>
+      <div class="images-right">
+        <img src="IMG_1534.jpeg" style="width: 50%;" alt="A photo of me">
+      </div>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
-    <h2 id="my-approach">My approach</h2>
-    <p>
-      My therapeutic approach is gentle and grounded in Person-Centred principles, allowing clients to lead the sessions in a manner that feels most comfortable to them.
-    </p>
-    <p>
-      Whether it's through:
-      <ul>
-        <li>play</li>
-        <li>creative expression</li>
-        <li>arts and crafts</li>
-        <li>open dialogue</li>
-      </ul>
-      The choice of how to engage is entirely in the hands of the client.
-    </p>
+  <div class="group" style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
+    <h2 class="text-right" id="my-approach">My approach</h2>
+    <div class="text-right">
+      <p>
+        My therapeutic approach is gentle and grounded in Person-Centred principles, allowing clients to lead the sessions in a manner that feels most comfortable to them.
+      </p>
+      <p>
+        Whether it's through:
+        <ul>
+          <li>play</li>
+          <li>creative expression</li>
+          <li>arts and crafts</li>
+          <li>open dialogue</li>
+        </ul>
+        The choice of how to engage is entirely in the hands of the client.
+      </p>
+    </div>
+    <div class="images-left">
+      <img src="Image_blocks.png" style="width: 70%;" alt="Tower of blocks"/>
+      <img src="Image_crafts.png" style="width: 70%;" alt="Arts and crafts"/>
+      <img src="Image_boy_speech_bubble.png" style="width: 70%;" alt="Child with speech bubble"/>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;">
+  <div class="group" style="padding: 10px 10%;">
     <h2 id="services">Services</h2>
-    <p>
-      I provide a warm, welcoming, and non-judgmental space where young individuals can explore their feelings and discuss the issues that matter to them. Clients can take their time and share at their own pace, without any pressure or specific agenda for each session.
-    </p>
-    <p>
-      I warmly welcome individuals from all faiths, backgrounds, cultures, as well as those from neurodiverse communities and the LGBTQ+ community. My goal is to foster an atmosphere of openness and non-judgment, ensuring that everyone feels accepted just as they are.
-    </p>
-    <p>
-      While I do not diagnose, offer solutions or direct advice, my role is to be a supportive presence, walking alongside clients as they navigate challenges such as but not limited to: anxiety, depression, emotional difficulties, low self-esteem, relationship issues or academic pressures. My aim is to create a safe environment where individuals feel truly heard and valued.
-    </p>
+    <div class="text-left">
+      <p>
+        I provide a warm, welcoming, and non-judgmental space where young individuals can explore their feelings and discuss the issues that matter to them. Clients can take their time and share at their own pace, without any pressure or specific agenda for each session.
+      </p>
+      <p>
+        I warmly welcome individuals from all faiths, backgrounds, cultures, as well as those from neurodiverse communities and the LGBTQ+ community. My goal is to foster an atmosphere of openness and non-judgment, ensuring that everyone feels accepted just as they are.
+      </p>
+      <p>
+        While I do not diagnose, offer solutions or direct advice, my role is to be a supportive presence, walking alongside clients as they navigate challenges such as but not limited to: anxiety, depression, emotional difficulties, low self-esteem, relationship issues or academic pressures. My aim is to create a safe environment where individuals feel truly heard and valued.
+      </p>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
-    <h2 id="background">Background</h2>
-    <p>
-      Before qualifying as a counsellor, I spent several years working in a corporate desk job. After leaving to start a family, I reflected on my experiences and felt an ongoing unease I couldn't quite articulate. To find clarity, I began my own counselling journey, which provided a safe space to explore my emotions and gain insights into my struggles. This process led to significant personal growth and helped me move forward, where I had previously felt stuck.
-    </p>
-    <p>
-      Inspired by my transformative experience, I trained to become a counsellor, aiming to create a non-judgmental and authentic environment for others, just as I had experienced.
-    </p>
+  <div class="group" style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(250, 235, 217);">
+    <h2 class="text-right" id="background">Background</h2>
+    <div class="text-right">
+      <p>
+        Before qualifying as a counsellor, I spent several years working in a corporate desk job. After leaving to start a family, I reflected on my experiences and felt an ongoing unease I couldn't quite articulate. To find clarity, I began my own counselling journey, which provided a safe space to explore my emotions and gain insights into my struggles. This process led to significant personal growth and helped me move forward, where I had previously felt stuck.
+      </p>
+      <p>
+        Inspired by my transformative experience, I trained to become a counsellor, aiming to create a non-judgmental and authentic environment for others, just as I had experienced.
+      </p>
+    </div>
+    <div class="images-left">
+      <img src="IMG_2899.png" style="width: 100%;" class="center" alt="Flower"/>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;">
+  <div class="group" style="padding: 10px 10%;">
     <h2 id="getting-started">Getting started</h2>
-    <p>
-      In our first session, we'll go over our agreement, including confidentiality, safeguarding, and our approach, so you feel well-informed. This session also serves as an introduction to the therapeutic environment. For some children, it might be their first opportunity to have a space dedicated solely to them, allowing them to express themselves openly and start to grasp what therapy could be like.
-    </p>
-    <p>
-      Children typically require some time to familiarise themselves with a new environment and feel at ease.
-      <br>
-      Establishing a consistent schedule of sessions can effectively aid this process, allowing them to feel more secure and settled, and enabling them to engage in their own way as time progresses.
-    </p>
-  </div>
-  <div style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
-    <h2 id="sessions">Sessions</h2>
-    <p>
-      Sessions are 50 minutes on the same day and time each week.
-    </p>
-    <p>
-      I offer in-person counselling in the Brentwood area, as well as online and telephone.
-    </p>
-    <p>
-      Providing both short-term and long-term counselling sessions.
-    </p>
+    <div class="text-left">
+      <p>
+        In our first session, we'll go over our agreement, including confidentiality, safeguarding, and our approach, so you feel well-informed. This session also serves as an introduction to the therapeutic environment. For some children, it might be their first opportunity to have a space dedicated solely to them, allowing them to express themselves openly and start to grasp what therapy could be like.
+      </p>
+      <p>
+        Children typically require some time to familiarise themselves with a new environment and feel at ease.
+        <br>
+        Establishing a consistent schedule of sessions can effectively aid this process, allowing them to feel more secure and settled, and enabling them to engage in their own way as time progresses.
+      </p>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;">
+  <div class="group" style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(249, 236, 210);">
+    <h2 class="text-right" id="sessions">Sessions</h2>
+    <div class="text-right">
+      <p>
+        Sessions are 50 minutes on the same day and time each week.
+      </p>
+      <p>
+        I offer in-person counselling in the Brentwood area, as well as online and telephone.
+      </p>
+      <p>
+        Providing both short-term and long-term counselling sessions.
+      </p>
+      <p>Working times:</p>
+      <p>Monday 12 - 8 PM</p>
+      <p>Tuesday - Friday during the day</p>
+      <p>Contact me for availability.</p>
+    </div>
+    <div class="images-left">
+      <img src="IMG_2895.png" style="width: 100%;" alt="Flower"/>
+    </div>
+  </div>
+
+  <div class="group" style="padding: 10px 10%;">
     <h2 id="contact">Contact</h2>
-    <p>
-      If you feel like this is for you or want to find out more, I offer a free no obligation 15-minute phone consultation where we can talk about your needs and address any questions you might have and determine whether I am the right person to support you.
-    </p>
-    <p>
-      Phone: <a href="tel:+447455187681">07455 187 681</a>
-      <br>
-      Email: <a href="mailto:sarahwalkercounselling@gmail.com">sarahwalkercounselling@gmail.com</a>
-      <br>
-      <br>I am based in:
-      <br>1 & 2 Ashwells Cottages,
-      <br>Ashwells Road,
-      <br>Brentwood,
-      <br>CM15 9SE
-    </p>
+    <div class="text-left">
+      <p>
+        If you feel like this is for you or want to find out more, I offer a free no obligation 15-minute phone consultation where we can talk about your needs and address any questions you might have and determine whether I am the right person to support you.
+      </p>
+      <p>
+        Phone: <a href="tel:+447455187681">07455 187 681</a>
+        <br>
+        Email: <a href="mailto:sarahwalkercounselling@gmail.com">sarahwalkercounselling@gmail.com</a>
+        <br>
+        <br>I am based in:
+        <br>1 & 2 Ashwells Cottages,
+        <br>Ashwells Road,
+        <br>Brentwood,
+        <br>CM15 9SE
+      </p>
+    </div>
+    <div class="images-right">
+      <img src="Image_phone.png" style="width: 40%;" alt="Phone"/>
+    </div>
   </div>
 
-  <div style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
-    <h2 id="fees">Fees</h2>
-    &pound;60 for a 50-minute session for:
-    <ul>
-      <li>
-      In-person
-      </li>
-      <li>
-      Online
-      </li>
-      <li>
-      Telephone
-      </li>
-    </ul>
+  <div class="group" style="padding: 10px 10%;color:rgb(105,86,50);background-color:rgb(242, 229, 193);">
+    <h2 class="text-left" id="fees">Fees</h2>
+    <div class="text-left">
+      &pound;60 for a 50-minute session for:
+      <ul>
+        <li>
+        In-person
+        </li>
+        <li>
+        Online
+        </li>
+        <li>
+        Telephone
+        </li>
+      </ul>
+    </div>
   </div>
 
   <footer>
@@ -184,10 +259,11 @@
       </nav>
     </div>
 
-    <div style="background-color:white;text-align: center;padding-top: 10px;">
+    <div style="background-color:white;text-align: center;padding-top: 10px;color:rgb(105,86,50);">
       <img style='object-fit: contain; max-height: 100px;' src="BACP-Logo-418723.png" alt="BACP membership number 418723"/>
       <img style='object-fit: contain; max-height: 100px;' src="ICO_Registered_LOGO.jpg" alt="ICO membership"/>
       <img style='object-fit: contain; max-height: 100px;' src="OTC+Badge+Light+Blue(400x400).png" alt="Online and telephone certified counselling"/>
+      <p>&copy; Sarah Walker Counselling 2026</p>
     </div>
 
   </footer>
